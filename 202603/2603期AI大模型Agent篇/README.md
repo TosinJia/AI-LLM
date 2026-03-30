@@ -9,6 +9,11 @@ pip install python-dotenv
 pip install llama-index llama-index-embeddings-huggingface llama-index-llms-dashscope llama-index-llms-ollama
 pip install llama-index-llms-deepseek
 pip install llama-index-utils-workflow
+
+pip install llama-index-readers-file
+
+pip install tree_sitter
+pip install tree_sitter_language_pack 
 ```
 
 ## 问题
