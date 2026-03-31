@@ -13,7 +13,11 @@ pip install llama-index-utils-workflow
 pip install llama-index-readers-file
 
 pip install tree_sitter
-pip install tree_sitter_language_pack 
+pip install tree_sitter_language_pack
+
+pip install llama-index-vector-stores-chroma
+
+pip install llama_index.storage.kvstore.redis
 ```
 
 ## 问题
