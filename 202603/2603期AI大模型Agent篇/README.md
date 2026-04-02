@@ -18,6 +18,10 @@ pip install tree_sitter_language_pack
 pip install llama-index-vector-stores-chroma
 
 pip install llama_index.storage.kvstore.redis
+
+pip install llama-index-storage-docstore-redis
+pip install llama-index-vector-stores-redis
+pip install llama-index-storage-index-store-redis
 ```
 
 ## 问题
