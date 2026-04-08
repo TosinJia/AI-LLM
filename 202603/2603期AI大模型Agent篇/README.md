@@ -1,4 +1,5 @@
 # 虚拟环境
+## llamaindex虚拟环境
 ```
 conda env list
 conda deactivate
@@ -54,4 +55,14 @@ RuntimeError: NumPy was built with baseline optimizations:
 ```
 pip uninstall numpy -y
 pip install numpy --no-binary numpy --config-settings=setup-args="-Dcpu-baseline=none"
+```
+
+## agent虚拟环境
+```
+conda create -n conda_llm-agent python=3.12
+conda activate conda_llm-agent
+pip install python-dotenv
+pip install langchain-tavily
+pip install langchain-openai
+pip install numexpr
 ```

@@ -3,7 +3,7 @@ from langchain.tools import tool
 from langchain_tavily import TavilySearch
 from langchain_openai import ChatOpenAI
 from langchain.agents.middleware import TodoListMiddleware
-import numexpr
+import numexpr # pip install numexpr
 from dotenv import load_dotenv
 import os
 
@@ -13,6 +13,7 @@ load_dotenv()
 model = "MiniMax-M2.1"
 api_key = os.getenv("DASHSCOPE_API_KEY")
 api_base_url = os.getenv("DASHSCOPE_BASE_URL")
+
 # 初始化qwen模型
 llm = ChatOpenAI(
     model=model,

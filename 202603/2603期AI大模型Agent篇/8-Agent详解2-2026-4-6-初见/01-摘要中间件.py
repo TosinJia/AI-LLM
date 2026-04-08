@@ -1,9 +1,9 @@
-from langchain_openai import ChatOpenAI
+from langchain_openai import ChatOpenAI # pip install langchain-openai
 from langchain.agents import create_agent
 from langchain.agents.middleware import SummarizationMiddleware
-from langchain_tavily import TavilySearch
+from langchain_tavily import TavilySearch # pip install langchain-tavily
 from langgraph.checkpoint.memory import InMemorySaver
-from dotenv import load_dotenv
+from dotenv import load_dotenv # pip install python-dotenv
 import os
 
 # 1.加载模型

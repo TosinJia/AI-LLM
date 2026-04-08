@@ -26,6 +26,7 @@ load_dotenv()
 model = "MiniMax-M2.1"
 api_key = os.getenv("DASHSCOPE_API_KEY")
 api_base_url = os.getenv("DASHSCOPE_BASE_URL")
+
 # 初始化qwen模型
 llm = ChatOpenAI(
     model=model,
