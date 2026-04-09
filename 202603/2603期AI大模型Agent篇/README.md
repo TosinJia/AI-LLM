@@ -65,4 +65,7 @@ pip install python-dotenv
 pip install langchain-tavily
 pip install langchain-openai
 pip install numexpr
+
+pip install pandas
+pip install prettytable
 ```

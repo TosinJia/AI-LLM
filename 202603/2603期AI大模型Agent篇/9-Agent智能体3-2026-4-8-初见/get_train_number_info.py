@@ -1,6 +1,6 @@
 import requests
 import json
-from prettytable import PrettyTable
+from prettytable import PrettyTable # pip install prettytable
 
 
 class Crawl:

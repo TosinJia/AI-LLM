@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # pip install pandas
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
