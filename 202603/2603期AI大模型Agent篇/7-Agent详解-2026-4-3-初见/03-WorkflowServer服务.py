@@ -9,7 +9,7 @@ from llama_index.core.workflow import (
 from llama_index.utils.workflow import (
     draw_all_possible_flows,
     draw_most_recent_execution,
-)
+) # pip install 'llama-index-workflows[server]'
 from 加载模型 import get_llm
 
 

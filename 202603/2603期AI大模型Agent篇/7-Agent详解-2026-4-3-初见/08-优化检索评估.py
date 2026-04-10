@@ -23,7 +23,7 @@ async def main():
     llm, embed_model = get_llm()
 
     # 加载文档
-    documents = SimpleDirectoryReader(input_files=["../data/小说.txt"]).load_data()
+    documents = SimpleDirectoryReader(input_files=["/home/tosinjia/LLM/files/小说.txt"]).load_data()
 
     # 2. 生成层次化节点
     print("正在进行层次化解析 (1024 -> 512 -> 128)...")

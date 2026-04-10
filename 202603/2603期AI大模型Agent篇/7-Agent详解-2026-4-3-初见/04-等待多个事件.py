@@ -1,5 +1,5 @@
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
-from llama_index.retrievers.bm25 import BM25Retriever
+from llama_index.retrievers.bm25 import BM25Retriever # pip install llama-index-retrievers-bm25
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.core.indices.vector_store.retrievers import VectorIndexRetriever
 from llama_index.core.workflow import (
@@ -205,7 +205,7 @@ async def main():
 
     get_llm()
 
-    documents = SimpleDirectoryReader(input_files=["../data/小说.txt"]).load_data()
+    documents = SimpleDirectoryReader(input_files=["/home/tosinjia/LLM/files/小说.txt"]).load_data()
     splitter = SentenceSplitter(chunk_size=512)
     nodes = splitter.get_nodes_from_documents(documents)
 

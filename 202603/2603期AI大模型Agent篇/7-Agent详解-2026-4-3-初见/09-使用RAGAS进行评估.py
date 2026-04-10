@@ -9,7 +9,7 @@ from llama_index.llms.deepseek import DeepSeek
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 # Ragas 核心
-from ragas import EvaluationDataset, RunConfig
+from ragas import EvaluationDataset, RunConfig # pip install ragas rapidfuzz
 from ragas.testset import TestsetGenerator
 from ragas.integrations.llama_index import evaluate
 from ragas.llms import LlamaIndexLLMWrapper
@@ -67,7 +67,7 @@ def init_all():
 
     # 本地 Embedding
     embed_model = HuggingFaceEmbedding(
-        model_name=r"D:\llm\Local_model\BAAI\bge-large-zh-v1___5"
+        model_name=r"/home/tosinjia/LLM/Local_model/BAAI/bge-large-zh-v1___5"
     )
 
     # 汉化后的 LLM（仅用于生成）
@@ -128,7 +128,7 @@ if __name__ == "__main__":
     base_llm, chinese_gen_llm, embed_model = init_all()
 
     # B. 加载本地文档
-    doc_path = "../data/小说.txt"
+    doc_path = "/home/tosinjia/LLM/files/小说.txt"
     if not os.path.exists(doc_path):
         print("错误：未找到文档文件。")
         exit()

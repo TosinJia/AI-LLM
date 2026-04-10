@@ -23,6 +23,13 @@ pip install llama_index.storage.kvstore.redis
 pip install llama-index-storage-docstore-redis
 pip install llama-index-vector-stores-redis
 pip install llama-index-storage-index-store-redis
+
+pip install 'llama-index-workflows[server]'
+
+pip install llama-index-retrievers-bm25
+
+pip install ragas
+pip install rapidfuzz
 ```
 
 ## 问题

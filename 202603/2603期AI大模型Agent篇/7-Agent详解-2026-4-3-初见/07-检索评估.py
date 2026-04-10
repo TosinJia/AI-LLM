@@ -10,7 +10,7 @@ from llama_index.core.evaluation import (
 from 加载模型 import get_llm
 
 # --- 配置区 ---
-DATA_PATH = "../data/小说.txt"
+DATA_PATH = "/home/tosinjia/LLM/files/小说.txt"
 SAVE_PATH = "小说_eval_dataset.json"
 SAMPLE_NODE_COUNT = 30  # 抽样节点数，设为 None 则处理全量
 TOP_K_LIST = [2, 5]  # 想要对比的检索深度

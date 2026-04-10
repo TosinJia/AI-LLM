@@ -10,7 +10,7 @@ async def main():
 
     # 2. 准备索引
     print("正在构建索引...")
-    documents = SimpleDirectoryReader(input_files=["../data/小说.txt"]).load_data()
+    documents = SimpleDirectoryReader(input_files=["/home/tosinjia/LLM/files/小说.txt"]).load_data()
     index = VectorStoreIndex.from_documents(documents)
     query_engine = index.as_query_engine()
 
