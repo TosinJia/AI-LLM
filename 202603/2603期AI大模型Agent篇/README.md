@@ -75,4 +75,17 @@ pip install numexpr
 
 pip install pandas
 pip install prettytable
+
+pip install langchain-experimental
+
+pip install pyautogen==0.9.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+## crewai虚拟环境
+```
+conda create -n conda_crewai python=3.12
+conda activate conda_crewai
+
+# 下载对应的包
+pip install crewai==1.6.1 crewai-tools==1.6.1 tavily-python==0.7.13 dotenv langchain==0.3.26 langchain-openai==0.3.27 langchain-core==0.3.74 langchain-community==0.3.27 langchain-tavily==0.2.10 dashscope==1.25.2
 ```
