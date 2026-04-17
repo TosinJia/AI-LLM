@@ -96,4 +96,11 @@ conda create -n conda_llm-langgraph python=3.12
 conda activate conda_llm-langgraph
 
 pip install -U "langgraph"
+
+pip install langchain # pip install langchain-core
+pip install langchain-community
+pip install langchain-deepseek
+pip install python-dotenv
+
+pip install ipython
 ```
