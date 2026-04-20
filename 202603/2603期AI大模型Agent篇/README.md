@@ -103,4 +103,7 @@ pip install langchain-deepseek
 pip install python-dotenv
 
 pip install ipython
+
+pip install langchain-huggingface
+pip install sentence-transformers
 ```
