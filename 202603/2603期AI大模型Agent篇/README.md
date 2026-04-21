@@ -106,4 +106,6 @@ pip install ipython
 
 pip install langchain-huggingface
 pip install sentence-transformers
+
+pip install -U langgraph-checkpoint-redis
 ```
