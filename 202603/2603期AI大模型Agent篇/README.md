@@ -108,4 +108,8 @@ pip install langchain-huggingface
 pip install sentence-transformers
 
 pip install -U langgraph-checkpoint-redis
+
+pip install langmem
+
+pip install langchain-tavily
 ```
