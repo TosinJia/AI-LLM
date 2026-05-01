@@ -113,3 +113,13 @@ pip install langmem
 
 pip install langchain-tavily
 ```
+
+## MCP虚拟环境
+```
+conda create -n conda_llm-mcp python=3.12
+conda activate conda_llm-mcp
+
+pip install fastmcp mcp
+pip install langchain-mcp-adapters
+pip install langchain langchain-openai
+```
